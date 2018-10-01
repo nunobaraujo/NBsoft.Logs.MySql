@@ -59,7 +59,7 @@ namespace NBsoft.Logs.Sql
                 {
                     string sql = string.Format(
                         "CREATE TABLE {0} (" +
-                        " Id                  bigint                    NOT NULL AUTO_INCREMENT," +
+                        " Id                  bigint                    NOT NULL UNIQUE PRIMARY KEY AUTO_INCREMENT," +
                         " DateTime            datetime                  NOT NULL, " +
                         " Level               nvarchar(16)	            NOT NULL, " +
                         " Component           text                      NULL, " +

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.0.1</Version>
+    <Version>2.0.2</Version>
     <Authors>nunobaraujo</Authors>
     <Company>nbsoft.pt</Company>
     <Description>MySql Logger Library for .NET Standard</Description>
@@ -11,6 +11,8 @@
     <PackageLicenseUrl>https://github.com/nunobaraujo/NBsoft.Logs/blob/master/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/nunobaraujo/NBsoft.Logs.MySql</PackageProjectUrl>
     <PackageIconUrl>http://nbsoft.pt/V1/favicon.ico</PackageIconUrl>
+    <PackageTags>log logging mysql</PackageTags>
+    <RepositoryUrl>https://github.com/nunobaraujo/NBsoft.Logs.MySql</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
