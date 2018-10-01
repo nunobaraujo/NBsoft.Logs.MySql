@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2.0.1</Version>
+    <Authors>nunobaraujo</Authors>
+    <Company>nbsoft.pt</Company>
+    <Description>MySql Logger Library for .NET Standard</Description>
+    <Copyright>© 2018 Nuno Benjamim Salgado Alves de Araújo</Copyright>
+    <PackageLicenseUrl>https://github.com/nunobaraujo/NBsoft.Logs/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/nunobaraujo/NBsoft.Logs.MySql</PackageProjectUrl>
+    <PackageIconUrl>http://nbsoft.pt/V1/favicon.ico</PackageIconUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.12" />
+    <PackageReference Include="NBsoft.Logs" Version="2.0.1" />
+  </ItemGroup>
+
+</Project>
