@@ -67,7 +67,7 @@ namespace NBsoft.Logs.Sql
                         " Context             text                      NULL, " +
                         " Type                text                      NULL, " +
                         " Stack               text                      NULL, " +
-                        " Msg                 text                      NULL" +                        
+                        " Msg                 MEDIUMTEXT                NULL" +                        
                         ");", _logTable);
 
                     DbCommand createCommand = testConn.CreateCommand();
