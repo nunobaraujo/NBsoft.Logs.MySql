@@ -1,5 +1,4 @@
 ﻿using MySql.Data.MySqlClient;
-using NBsoft.Logs.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;

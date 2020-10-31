@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.0.3</Version>
+    <Version>2.1.0</Version>
     <Authors>nunobaraujo</Authors>
     <Company>nbsoft.pt</Company>
     <Description>MySql Logger Library for .NET Standard</Description>
@@ -16,8 +16,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MySql.Data" Version="8.0.12" />
-    <PackageReference Include="NBsoft.Logs" Version="2.0.1" />
+    <PackageReference Include="MySql.Data" Version="8.0.22" />
+    <PackageReference Include="NBsoft.Logs" Version="2.1.0" />
   </ItemGroup>
 
 </Project>
