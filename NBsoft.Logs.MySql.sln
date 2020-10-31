@@ -1,9 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2020
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBsoft.Logs.MySql", "src\NBsoft.Logs.MySql\NBsoft.Logs.MySql.csproj", "{3D052BE9-94FE-4A12-AEE4-4ED167E33E1C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NuGet", "NuGet", "{27728250-7F6E-4E22-BEF5-A01AF56A3104}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		NB.png = NB.png
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
